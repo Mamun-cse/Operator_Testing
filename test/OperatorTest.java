@@ -32,7 +32,7 @@ public class OperatorTestUnitTest {
 		assertEquals(true,op.EqualTo(12,12));
 		assertEquals(true,op.NotEqualTo(13,12));
 		assertEquals(true,op.GretarThan(14,12));
-        assertEquals(true,op.LessThen(11,12));
+                assertEquals(true,op.LessThen(11,12));
 		assertEquals(true,op.GretarThenOrEqual(16,12));
 		assertEquals(true,op.LessThenOrEqual(11,12));
 
